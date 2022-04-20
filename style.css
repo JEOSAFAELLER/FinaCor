@@ -231,7 +231,35 @@ div#backimg {
   color:#0b293d;
  }
  
+/*jardim*/
 
+.container#titulo {
+  position:absolute;
+  margin-top: 50px;
+  top: 20px;
+  padding: 50px;
+  color: #fff;
+  text-shadow: #fff 1px 1px 1px;
+  
+}
+.showcase#inicio {
+display: flex;
+  max-height: 100%;
+  max-width: 100%;
+  height: 400px;
+  width: auto;
+  
+
+}
+
+.showcase video {
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  
+  object-fit: cover;
+}
 
 
   
@@ -244,28 +272,6 @@ div#backimg {
     }
 }
 
-/*jardim*/
-section#inicio {
 
-    margin-bottom:auto;    
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #000;
-    height: auto;
-    
-  }
-  .container#titulo {
-    position:absolute ;
-    margin-top: 100px;
-    top: 20px;
-    padding: 50px;
-    color: #fff;
-    text-shadow: #fff 1px 1px 1px;
-  }
-  #bg_video {
-    background-size: cover;
-    max-width: 100%;
-    max-height: 100%;
-
-  }
+  
 

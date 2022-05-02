@@ -38,7 +38,7 @@ font-family: 'Comfortaa', cursive;
   margin: 5px auto;
 }
 .navbar-toggler .top-bar {
-  transform: rotate(135deg);
+  transform: rotate(45deg);
   transform-origin: 10% 10%;
   margin-top: 0px;
   
@@ -49,7 +49,7 @@ font-family: 'Comfortaa', cursive;
   filter: alpha(opacity=0);
 }
 .navbar-toggler .bottom-bar {
- transform: rotate(-135deg);
+ transform: rotate(-45deg);
  transform-origin: 10% 10%;
  margin-top: 0px;
  
@@ -182,6 +182,7 @@ div#backimg {
   border: 0;
   border-bottom: 1px solid #0b293d;
   width: 100%;
+  height: auto;
   padding: 3px;
   font-size: 16px;
   background-color: transparent;
@@ -274,14 +275,37 @@ div#backimg {
   max-height: 50%;
 }
 
+.accordion-item, .accordion-button {
+  color: #0b293d;
+
+}
+.accordion-button:focus,.accordion-item:focus{
+  outline: none;
+}
+.accordion-button:not(.collapsed) {
+  background:#0b293d;
+  color:rgb(224, 169, 4);
+  background-image:url(https://cdn-icons-png.flaticon.com/512/32/32195.png);
+  opacity: 0.8;
+  
+
+
+}
+.accordion-button:not(.collapsed)::after,
+.accordion-button::after {
+  background-image:url(https://cdn-icons-png.flaticon.com/512/32/32195.png);
+}
+
+
 
   
 .footer#footer {
     background:#0b293d ;
 }
 @media(min-width:640px) {
-    .swiper {
-        width: auto;
+    .swiper, .swiper#depoimentos {
+       max-width: auto;
+        max-height: 100vh;
     }
 }
 

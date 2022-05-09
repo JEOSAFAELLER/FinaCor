@@ -68,7 +68,7 @@ font-family: 'Comfortaa', cursive;
 .navbar-toggler.collapsed .toggler-icon {
   background-color:rgb(224, 169, 4) ;
 } 
-
+/* index*/
 section#historia {
   margin-bottom:auto;
   background-image: url(img/imgfundo2.jpg);
@@ -155,24 +155,24 @@ div#backimg {
 
   
   .form {
-  display: flex;
-  top: 0;
-  height: auto;
-  width: 500px;
+    
   padding: 40px;
   border-radius: 25px;
   margin-bottom: 100px;
-  justify-self: flex-end;
+  
+  
   background-color: #e7e7e586;
+  
   
   
   
 
  }
- .form .form-control {
+ .form-control {
   margin: 30px 0;
   border: 0;
   background-color: transparent;
+  
   
   
 }
@@ -184,7 +184,7 @@ div#backimg {
   width: 100%;
   height: auto;
   padding: 3px;
-  font-size: 16px;
+  font-size: 12pt;
   background-color: transparent;
   
 
@@ -193,6 +193,7 @@ div#backimg {
   border-radius: 25px;
   border:1px solid #0b293d;
   color: #0b293d;
+  
   
 
 }
@@ -241,10 +242,10 @@ div#backimg {
   
   margin-top: 50px;
   top: 20px;
-  padding: 50px;
+  padding: 30px;
   color: #fff;
   text-shadow: #0b293d 2px 2px 2px;
-  min-height: 100%;
+  min-height: auto;
   min-width: 100%;
     
 }
@@ -296,6 +297,13 @@ div#backimg {
   background-image:url(https://cdn-icons-png.flaticon.com/512/32/32195.png);
 }
 
+
+      
+        
+      
+    
+        
+        
 
 
   

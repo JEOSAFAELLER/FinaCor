@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="montagem.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
-    
+    <link rel="icon" href="https://www.fcdecor.com.br/media/favicon/default/favicon.png" type="image/x-icon">
     <!--linkswipper-->
     
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
@@ -50,7 +50,7 @@
                   <li class="nav-item">
                   <a href="https://web.whatsapp.com/send?phone=5531980189811"><i class="bi bi-whatsapp  mx-1" style="font-size: x-large; color: rgb(224, 169, 4);"></i></a>
                   <a href="https://www.instagram.com/finacordecoracoes/"><i class="bi bi-instagram  mx-1" style="font-size: x-large; color: rgb(224, 169, 4);"></i></a>
-                  <a href="#contato"><i class="bi bi-envelope text mx-1" style="font-size: x-large; color: rgb(224, 169, 4);"></i></a>
+                  <a href="#contato"><i class="bi bi-envelope text mx-1 d-md-inline d-sm-none" style="font-size: x-large; color: rgb(224, 169, 4);"></i></a>
                   <a href="https://www.youtube.com/channel/UCcb0yv0IQBWPMlNifo9teOQ"><i class="bi bi-youtube  mx-1" style="font-size: x-large; color: rgb(224, 169, 4);"></i></a>
                   </li>
               </ul>
@@ -65,7 +65,8 @@
           
           </div>
         </nav>
-        <section class="bg-secondary">
+        <!--Especialistas-->
+        <section>
           <div class="container">
             
             <div class="d-sm-block align-items-center justify-content-between">
@@ -86,10 +87,126 @@
 
         </section>
         
+        <!--Swiper-->        
+        <section class="p-5">
+          
+
+        <div class="swiper mySwiper" id="arranjos">
+          <div class="swiper-wrapper">
+            
+         
+                
+            <div class="swiper-slide" ><img src="img/arranjo1.jpg" alt=""></div>
+         
+          
+            <div class="swiper-slide" ><img src="img/arranjo2.jpg" alt=""></div>
+         
+          
+            <div class="swiper-slide" ><img src="img/arranjo3.jpg" alt=""></div>
+         
+          
+            <div class="swiper-slide" ><img src="img/arranjo4.jpg" alt=""></div>
+         
+          
+            <div class="swiper-slide" ><img src="img/arranjo5.jpg" alt=""></div>
+         
+          
+            <div class="swiper-slide" ><img src="img/arranjo6.jpg" alt=""></div>
+         
+          
+            <div class="swiper-slide" ><img src="img/arranjo7.jpg" alt=""></div>
+         
+          
+            <div class="swiper-slide" ><img src="img/arranjo8.jpg" alt=""></div>
+         
+          
+            <div class="swiper-slide" ><img src="img/arranjo9.jpg" alt=""></div>
+         
+         
+          
+
+          </div>
+          <div class="swiper-button-next" style="color:#0b293d;"></div>
+          <div class="swiper-button-prev" style="color:#0b293d;"></div>
+        </div>
+        
+        
+
+      </section>
+       <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 1,
+        slidesPerGroup: 1,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        autoplay: {
+        
+        disableOnInteraction: false,
+        
+        },
+        
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+  },
+      });
+      var cartas = new Swiper(".myDepoiments", {
+        effect:"cards",
+        grabCursor: true,              
+      });
+
+    </script>      
+    
+    
+       
+        
+
+
+        
       
        
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    
+        
+    <!--footer-->
+<footer class="footer p-5 text-white text-center position-relative" id="footer">
+  <div class="container">
+      <div class="image mb-5" ><img src="img/logo_original.png" alt=""></div>
+      <h5 class="mb-5">
+          Av. Amazonas, 100 - Belo Horizonte - MG<br>
+          (31) 3397762 - (31) 980189811<br>
+          finacordecoracoes@gmail.com
+      </h5>
+      
+      <p class="lead">Copyright &copy;2022 Fina Cor Casa e Decoração ltda.</p>
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1" style="color: rgb(224, 169, 4);"></i>
+      </a>
+
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+
 </body>
 </html>

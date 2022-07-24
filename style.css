@@ -1,7 +1,6 @@
 body::before {
     display: block;
     content:'';
-    height: 10px;
 }
 *{margin: 0;padding: 0;
 box-sizing: border-box;
@@ -68,6 +67,7 @@ font-family: 'Comfortaa', cursive;
 .navbar-toggler.collapsed .toggler-icon {
   background-color:rgb(224, 169, 4) ;
 } 
+
 /* index*/
 section#historia {
   margin-bottom:auto;
@@ -81,10 +81,14 @@ div#backimg {
   margin-top:200px ;
 
 }
-.card#arranjos, .card#natal, .card#jardim, .card#jdfolhagem, .card#jdplacas, .card#jdflores  {
+.card#arranjos, 
+.card#natal,
+.card#jardim,
+.card#jdfolhagem,
+.card#jdplacas,
+.card#jdflores  {
     background:#0b293d;
     border-radius: 25px;
-    
 }
 
 .swiper {
@@ -152,7 +156,6 @@ div#backimg {
   .swiper-slide#ct4 {
     background-color: rgb(17, 4, 81);
   }
-
   
   .form {
     
@@ -161,19 +164,13 @@ div#backimg {
   margin-bottom: 100px;
   
   
-  background-color: #e7e7e586;
-  
-  
-  
-  
+  background-color: #e7e7e586; 
 
  }
  .form-control {
   margin: 30px 0;
   border: 0;
-  background-color: transparent;
-  
-  
+  background-color: transparent;  
   
 }
 .form input[type='text'],
@@ -185,34 +182,22 @@ div#backimg {
   height: auto;
   padding: 3px;
   font-size: 12pt;
-  background-color: transparent;
-  
+  background-color: transparent;  
 
 }
 .form input[type='submit'], .btn#btnprodutos {
   border-radius: 25px;
   border:1px solid #0b293d;
-  color: #0b293d;
-  
-  
+  color: #0b293d;  
 
 }
 
 .form input[type='submit']:hover,
 .btn#btnprodutos:hover {
   background:#0b293d;
-  color:rgb(224, 169, 4);
-
-  
-
-  
+  color:rgb(224, 169, 4); 
 
 }
-
-
-
-
-
 
 .form input:focus,
 .form-control textarea:focus {
@@ -225,13 +210,15 @@ div#backimg {
   border:1px solid rgb(224, 169, 4);
   color:rgb(224, 169, 4);
   text-transform: uppercase;
+  transition-duration: .5s;
  
   
  } 
  .btn:hover {
   background:rgb(224, 169, 4);
-  color:#0b293d;
+  color:#0b293d;  
  }
+
  h1 {
   text-shadow: #0b293d 2px 2px 2px;
  }
@@ -310,12 +297,14 @@ div#backimg {
 .footer#footer {
     background:#0b293d ;
 }
-@media(min-width:640px) {
-    .swiper, .swiper#depoimentos {
-       max-width: auto;
-        max-height: 100vh;
-    }
-}
+
+
+  
+  
+    
+        
+  
+
 
 
   

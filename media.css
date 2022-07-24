@@ -1,0 +1,54 @@
+@media(min-width:640px) {
+    .swiper, .swiper#depoimentos {
+       max-width: auto;
+        max-height: 100vh;
+    }
+   
+}
+
+@media(max-width:468px) {
+  .navbar>.container, .navbar>.container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .navbar-toggler{
+    position: absolute;
+    top: 25px;
+    left: 10px;
+  }
+  ul.navbar-nav.ms-auto.p-3 {
+    display: flex;
+    position: relative;
+    right: 70px;
+        
+  }
+  .nav-item>a {
+    margin: 10px;
+  }
+  #depoimentos {
+    left: -30px;
+  }
+
+  #footer {
+    padding: 1rem!important;
+    
+  }
+
+  .lead {
+      margin-bottom: 4rem;
+      margin-top: 10px;
+  }
+  .image {
+    margin-top: 20px;
+  }
+  #servicos, section#card_jardim{
+    padding: 10px!important;
+  }
+  
+  
+    
+        
+  }

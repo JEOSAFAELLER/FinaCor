@@ -20,14 +20,16 @@
     left: 10px;
   }
   ul.navbar-nav.ms-auto.p-3 {
-    display: flex;
+    display: contents;
     position: relative;
-    right: 70px;
-        
   }
   .nav-item>a {
     margin: 10px;
   }
+  .navbar-brand{
+    margin: 0;
+  }
+
   #depoimentos {
     left: -30px;
   }
@@ -46,6 +48,11 @@
   }
   #servicos, section#card_jardim{
     padding: 10px!important;
+  }
+
+  /*jardim*/
+  .container#titulo{
+    padding: 5px;
   }
   
   

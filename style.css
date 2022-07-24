@@ -2,7 +2,9 @@ body::before {
     display: block;
     content:'';
 }
-*{margin: 0;padding: 0;
+*,
+*::before,
+*::after{margin: 0;padding: 0;
 box-sizing: border-box;
 font-family: 'Comfortaa', cursive;
 

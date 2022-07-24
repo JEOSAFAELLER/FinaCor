@@ -40,8 +40,6 @@ font-family: 'Comfortaa', cursive;
   transform: rotate(45deg);
   transform-origin: 10% 10%;
   margin-top: 0px;
-  
-
 }
 .navbar-toggler .middle-bar {
   opacity: 0;
@@ -202,7 +200,6 @@ div#backimg {
 .form input:focus,
 .form-control textarea:focus {
   outline:none;
-          
 }
 
  .btn {
@@ -275,25 +272,11 @@ div#backimg {
   color:rgb(224, 169, 4);
   background-image:url(https://cdn-icons-png.flaticon.com/512/32/32195.png);
   opacity: 0.8;
-  
-
-
 }
 .accordion-button:not(.collapsed)::after,
 .accordion-button::after {
   background-image:url(https://cdn-icons-png.flaticon.com/512/32/32195.png);
 }
-
-
-      
-        
-      
-    
-        
-        
-
-
-  
 .footer#footer {
     background:#0b293d ;
 }
